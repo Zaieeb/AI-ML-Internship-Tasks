@@ -22,3 +22,28 @@ Load, inspect, and visualize the Iris dataset to understand data distributions a
 
 ### Tools Used
 Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
+
+
+---
+
+## Task 2: Predict Future Stock Prices (Short-Term)
+
+### Objective
+Use historical stock data to predict the next day's closing price using regression models.
+
+### Dataset
+- **Source**: Yahoo Finance via `yfinance` library
+- **Stock**: Apple Inc. (AAPL)
+- **Period**: 2019–2024
+
+### Models Applied
+- Linear Regression
+- Random Forest Regressor
+
+### Key Results
+- Both models achieved R² ≈ 0.99 on test data
+- Random Forest outperformed Linear Regression (lower MAE & RMSE)
+- Today's closing price is the strongest predictor of tomorrow's price
+
+### Tools Used
+Python, Pandas, yfinance, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
