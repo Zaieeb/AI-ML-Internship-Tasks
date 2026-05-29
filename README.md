@@ -47,3 +47,27 @@ Use historical stock data to predict the next day's closing price using regressi
 
 ### Tools Used
 Python, Pandas, yfinance, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
+
+---
+
+## Task 3: Heart Disease Prediction
+
+### Objective
+Predict whether a patient is at risk of heart disease using classification models.
+
+### Dataset
+- **Name**: Heart Disease UCI Dataset
+- **Source**: Kaggle
+- **Size**: 303 patients, 13 features + 1 target
+
+### Models Applied
+- Logistic Regression
+- Decision Tree Classifier
+
+### Key Results
+- Logistic Regression Accuracy: ~85% | ROC-AUC: ~0.92
+- Decision Tree Accuracy: ~80% | ROC-AUC: ~0.85
+- Top features: thalach, cp, ca, oldpeak
+
+### Tools Used
+Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
